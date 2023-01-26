@@ -3,9 +3,9 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - printf function
- * @format: format
- * Return: printed chars
+ * _printf - Printf function
+ * @format: format.
+ * Return: printed chars.
  */
 
 int _printf(const char *format, ...)
@@ -48,7 +48,7 @@ int _printf(const char *format, ...)
 		}
 	}
 
-	printed_buffer(buffer, &buff_ind);
+	print_buffer(buffer, &buff_ind);
 
 	va_end(list);
 
