@@ -20,8 +20,8 @@
 
 /**
  * Struct fmt - Struct op
- * @fmt: format
- * @fn: function associated
+ * @fmt: the format.
+ * @fn: the function associated.
  */
 struct fmt
 {
@@ -32,7 +32,7 @@ struct fmt
 /**
  * typedef struct fmt fmt_t - Struct op
  * @fmt: the format
- * @fmt_t: the function associated
+ * @fm_t: the function associated
  */
 
 typedef struct fmt fmt_t;
